@@ -1,0 +1,44 @@
+
+
+button {
+    width: 4em;
+    border-radius: 10%;
+    cursor: pointer;
+    background: #ed9033;
+    &:hover {
+    background: red;
+}
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgb(67, 206, 153);
+    .slider {
+        width: 270px;
+        height: 270px;
+        border: 2px solid #000;
+        border-radius: 5%;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+    .slider__line {
+        display: flex;
+        height: 270px;
+        width: 2160px;
+        position: relative;
+        right: 0;
+        transition: all ease 1s;
+    }
+}
+.pagination {
+    width: 10em;
+    height: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+}
